@@ -21,6 +21,11 @@
   - 跟着这一节的课件，把你的 4.3 项目一步步改成它
   - 同样是 React / Vite 工程，`npm install` 后 `npm run dev`（详见它自己的 README）
 
+- [`zero-to-tech-4-5/`](./zero-to-tech-4-5) —— **模块 4.5：Next.js——React 之上的生产级框架**
+  - 把 4.4 那个 React 项目整体搬成 **Next.js 版**：`app/` 文件夹路由、`<Link>` 跳转、页面预渲染成真实 HTML
+  - 跟着这一节的课件，把你的 4.4 项目整体迁移成它
+  - 这是个 **Next.js** 工程（默认端口 3000），`npm install` 后 `npm run dev`（详见它自己的 README）
+
 ## 怎么用
 
 **在线浏览**：点上面的链接，在 GitHub web 界面里看代码。
@@ -37,4 +42,4 @@ cd zero-to-tech-demos/zero-to-tech-4-1
 
 ## 后续
 
-模块 4.2 不需要单独的 demo；4.3、4.4 已加入；后续 demo 会随着课件发布陆续补上。
+模块 4.2 不需要单独的 demo；4.3、4.4、4.5 已加入；后续 demo 会随着课件发布陆续补上。
