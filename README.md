@@ -26,6 +26,11 @@
   - 跟着这一节的课件，把你的 4.4 项目整体迁移成它
   - 这是个 **Next.js** 工程（默认端口 3000），`npm install` 后 `npm run dev`（详见它自己的 README）
 
+- [`zero-to-tech-5-5/`](./zero-to-tech-5-5) —— **模块 5.5：前后端联调与 CORS**
+  - 只放这一节**改动的前端文件**：四个组件（`HomeView` / `TextLabView` / `InputCard` / `ResultCard`）+ `css/lab.css`，主页和文字实验室都改成去调后端 API
+  - **不是可独立运行的工程**，是"替换用的文件"：跟着课件到"前端直接替换"这一步，用它们覆盖你 `~/zero-to-tech/` 下的同名文件
+  - 后端是你在模块 5 里一路搭的那个，按这一节课件加上 CORS 即可；后端地址暂时写死，`.env.local` 是这一节最后一步（详见它自己的 README）
+
 ## 怎么用
 
 **在线浏览**：点上面的链接，在 GitHub web 界面里看代码。
@@ -39,7 +44,8 @@ cd zero-to-tech-demos/zero-to-tech-4-1
 
 - **4-1 这种 vanilla 版**：双击 `index.html` 就能在浏览器里看到网站跑起来。
 - **4-3 这种 React 版**：先 `npm install`，再 `npm run dev`，按提示打开 `localhost` 地址。
+- **5-5 这种"替换文件"版**：不用单独跑，把里面的文件覆盖你自己项目里的同名文件即可（详见它的 README）。
 
 ## 后续
 
-模块 4.2 不需要单独的 demo；4.3、4.4、4.5 已加入；后续 demo 会随着课件发布陆续补上。
+模块 4.2 不需要单独的 demo；4.3、4.4、4.5、5.5 已加入；后续 demo 会随着课件发布陆续补上。
